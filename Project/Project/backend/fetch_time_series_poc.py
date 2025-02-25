@@ -1,8 +1,6 @@
 # use yfinance API to download time series data for a given asset
 import json
 import yfinance as yf
-import pandas as pd
-import os
 
 def fetch_time_series_data(json_file):
     """
@@ -55,4 +53,4 @@ def run():
     if time_series_data:
         for ticker, df in time_series_data.items():
             print(f"\nTime Series Data for {ticker}:")
-            print(df.head())  # Show first few rows
+            print(df.head())  

@@ -1,0 +1,13 @@
+{
+    "start_date": "2019-02-25",
+    "end_date": "2024-02-25",
+    "indicators": {
+        "GDP": "Gross Domestic Product",
+        "CPIAUCSL": "Consumer Price Index (CPI)",
+        "UNRATE": "Unemployment Rate",
+        "FEDFUNDS": "Federal Funds Rate",
+        "T10Y2Y": "10-Year Treasury Minus 2-Year Treasury Spread",
+        "M2SL": "M2 Money Supply",
+        "BAA10Y": "Moody's Baa Corporate Bond Yield Spread"
+    }
+}
